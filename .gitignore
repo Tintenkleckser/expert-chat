@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.local
+.env.*.local
+node_modules
+dist
+.vercel
+npm-debug.log*
+
+.env.production
+*.zip
