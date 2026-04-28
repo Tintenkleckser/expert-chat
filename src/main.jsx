@@ -249,10 +249,15 @@ function App() {
         </nav>
 
         <div className="sidebar-footer">
-          <button className="footer-link">
+          <a
+            className="footer-link"
+            href="https://handbuchprojekt-e5524.web.app"
+            target="_blank"
+            rel="noreferrer"
+          >
             <ExternalLink size={16} />
             Handbuch öffnen
-          </button>
+          </a>
           <button className="account-row" onClick={signOut}>
             <span>{session.user.email}</span>
             <LogOut size={16} />
